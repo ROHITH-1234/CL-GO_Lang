@@ -20,9 +20,13 @@ func createnewbill() (string, int, string) {
 	fmt.Fscan(os.Stdin, &item)
 	return name, age, item
 }
-func billcreator() {
+func billcreator() bill {
 	name, age, item := createnewbill()
 	fmt.Println("user name:", name)
 	fmt.Println("user age:", age)
 	fmt.Println("user item:", item)
+	b := customtype(name)
+	b.additem(item, int64(age))
+	b.updatethetip(12)
+	return b
 }

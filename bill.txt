@@ -1,0 +1,5 @@
+breakdown the item 
+Tea : 16 
+orange : 250 
+newThing : 12 
+tip: 12.00
