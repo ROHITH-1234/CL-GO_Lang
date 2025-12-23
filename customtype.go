@@ -29,3 +29,17 @@ func (b bill) format() string {
 	mesg += fmt.Sprintf("tip: %.2f\n", b.tip)
 	return mesg
 }
+func (b *bill) updatethetip(tip float64) {
+	b.tip = tip
+}
+func (b *bill) additem(name string, value int64) {
+	b.item[name] = value
+}
+func changes() bill {
+	b := customtype("Rohith")
+	b.additem("apple", 15)
+	b.additem("softdrinks", 85)
+	b.additem("burger", 95)
+	b.updatethetip(20)
+	return b
+}

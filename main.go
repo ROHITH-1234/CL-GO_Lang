@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func main() {
 	// arrays()
@@ -11,7 +11,13 @@ func main() {
 	// mapfunc()
 	// passbyvalue()
 	// fmt.Println(customtype("Rohith"))
-	fmt.Println(customtype("rohith").format())
+
+	// fmt.Println(customtype("rohith").format())
+	// b:=changes()
+	// fmt.Println(b.format())
+
+	billcreator()
+
 	// pointer()
 	// fmt.Println("hello, Rohith")
 	// var firstName string="first"
