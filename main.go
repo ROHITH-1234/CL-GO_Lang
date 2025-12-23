@@ -1,6 +1,8 @@
 package main
-// import "fmt"
-func main(){
+
+import "fmt"
+
+func main() {
 	// arrays()
 	// loops()
 	// multivalue()
@@ -8,7 +10,8 @@ func main(){
 	// conditional()
 	// mapfunc()
 	// passbyvalue()
-	customtype()
+	// fmt.Println(customtype("Rohith"))
+	fmt.Println(customtype("rohith").format())
 	// pointer()
 	// fmt.Println("hello, Rohith")
 	// var firstName string="first"
